@@ -1,0 +1,80 @@
+body {
+      font-family: Arial, sans-serif;
+      background: url('train-bg.jpg') no-repeat center center/cover;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      background: #fff;
+      width: 450px;
+      margin: 50px auto;
+      padding: 20px;
+      border-radius: 6px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    h2 {
+      text-align: center;
+      color: #1a3d7c;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+
+    .form-group input, 
+    .form-group select {
+      width: 48%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .full-width {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+
+    .full-width select {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .options {
+      margin-bottom: 15px;
+      font-size: 14px;
+    }
+
+    .options label {
+      margin-right: 15px;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background: #f36c21;
+      color: #fff;
+      border: none;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: #e65c0f;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 15px;
+      color: red;
+      font-weight: bold;
+    }

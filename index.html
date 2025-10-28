@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Ticket</title>
+  <link rel="stylesheet" href="train.css">
+</head>
+<body>
+  <div class="container">
+    <h2>BOOK TICKET</h2>
+    <form>
+      <div class="form-group">
+        <input type="text" placeholder="From" required> &nbsp;  &nbsp;
+        <input type="date" value="2021-01-12" required>
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="To">  &nbsp;  &nbsp;
+        <select>
+          <option>All Classes</option>
+          <option>1A - First Class AC</option>
+          <option>2A - Second Class AC</option>
+          <option>3A - Third Class AC</option>
+          <option>SL - Sleeper</option>
+        </select>
+      </div>
+      <div class="full-width">
+        <select>
+          <option>GENERAL</option>
+          <option>LADIES</option>
+          <option>TATKAL</option>
+          <option>PREMIUM TATKAL</option>
+        </select>
+      </div>
+      <div class="options">
+        <label><input type="checkbox"> Divyaang Concession</label>
+        <label><input type="checkbox" checked> Flexible With Date</label>
+        <label><input type="checkbox"> Train with Available Berth</label>
+      </div>
+      <button type="submit" class="btn">Search</button>
+    </form>
+    <div class="footer">
+      Information on Covid-19 Vaccination Programme
+    </div>
+  </div>
+</body>
+</html>
